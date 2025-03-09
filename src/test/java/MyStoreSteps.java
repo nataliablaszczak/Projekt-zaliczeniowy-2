@@ -70,7 +70,7 @@ public class MyStoreSteps {
         WebElement sizeDropdown = driver.findElement(By.id("group_1"));
         sizeDropdown.click();
 
-        // Znajdź opcję dla rozmiaru M i kliknij ją
+        // Znajdujemy opcję dla rozmiaru M i klikamy ją
         WebElement sizeMOption = driver.findElement(By.xpath("//option[@value='2']"));
         sizeMOption.click();
 
@@ -78,7 +78,7 @@ public class MyStoreSteps {
         driver.findElement(By.id("group_1"));
         sizeDropdown.click();
 
-        // Znajdź opcję dla rozmiaru M i kliknij ją
+        // Znajduje opcję dla rozmiaru M i klika ją
         driver.findElement(By.xpath("//option[@value='2']"));
         sizeMOption.click();
 
