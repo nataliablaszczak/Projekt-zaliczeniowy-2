@@ -88,6 +88,7 @@ public class MyStoreSteps {
         Amount.sendKeys(Keys.CONTROL + "a"); // Zaznaczamy ilość
         Amount.sendKeys("5"); // Ustawiamy ilość
 
+
         // Czekamy na przycisk "Add to Cart"
         wait.until(ExpectedConditions.elementToBeClickable(AddBtn));
         AddBtn.click(); // Klikamy przycisk dodania do koszyka
